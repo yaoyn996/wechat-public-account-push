@@ -15,7 +15,6 @@ const USER_CONFIG = {
 
   PROVINCE: '浙江',
   CITY: '温岭',
-  FESTIVALS_LIMIT: 2,
   USERS: [
     {
       // 想要发送的人的名字
@@ -29,8 +28,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '第一个生日', name: '老婆', year: '1997', date: '09-12',
-          type: '第二个生日', name: '老婆', year: '1997', date: '01-09',
+          type: '生日', name: '宝贝', year: '1997', date: '01-09',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
