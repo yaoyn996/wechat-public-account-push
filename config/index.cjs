@@ -15,6 +15,7 @@ const USER_CONFIG = {
 
   PROVINCE: '浙江',
   CITY: '温岭',
+  FESTIVALS_LIMIT: 2,
   USERS: [
     {
       // 想要发送的人的名字
